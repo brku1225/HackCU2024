@@ -23,22 +23,43 @@
   }
 
   .topnav a:hover {
-    text-shadow: 0 0 5px yellow;
+    text-shadow: 0 0 5px #ff948c;
   }
 
 body {
-    background-color: #121212; /* Dark background color */
+    background-color: #241f32; /* Dark background color */
     color: #ffffff; /* Light text color */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 /*.illumination {
     position: fixed;
-    background: radial-gradient(circle, rgba(60, 60, 60, 0.1) 80%, transparent);
-    width: 80px; /* Adjust size of illumination 
-    height: 80px; /* Adjust size of illumination 
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 80%, transparent);
+    width: 80px; 
+    height: 80px;
     border-radius: 50%;
-    pointer-events: none; /* Ensure the illumination doesn't interfere with clicks 
-    z-index: -1; /* Ensure it's above other content 
-    transition: opacity 0.3s ease; /* Smooth transition for opacity 
+    pointer-events: none; 
+    z-index: -1; 
+    transition: opacity 0.3s ease;
 }
+#302a44 - medium purple
+#bb76c3 - light purple
+#241f32 - dark purple
+#ea5e93 - pink
+#ff948c - peach
+#f7bd64 - yellow
+#65bef7 - light blue
+#05aaff - deep blue
+
+
 */
