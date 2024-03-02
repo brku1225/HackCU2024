@@ -1,0 +1,44 @@
+.topnav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px 20px;
+    z-index: 999; /* Ensure the navigation bar stays on top */
+  }
+  
+  .topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .topnav li {
+    display: inline;
+  }
+  
+  .topnav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+
+  .topnav a:hover {
+    text-shadow: 0 0 5px yellow;
+  }
+
+body {
+    background-color: #121212; /* Dark background color */
+    color: #ffffff; /* Light text color */
+}
+
+/*.illumination {
+    position: fixed;
+    background: radial-gradient(circle, rgba(60, 60, 60, 0.1) 80%, transparent);
+    width: 80px; /* Adjust size of illumination 
+    height: 80px; /* Adjust size of illumination 
+    border-radius: 50%;
+    pointer-events: none; /* Ensure the illumination doesn't interfere with clicks 
+    z-index: -1; /* Ensure it's above other content 
+    transition: opacity 0.3s ease; /* Smooth transition for opacity 
+}
+*/
